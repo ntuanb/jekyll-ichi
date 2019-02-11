@@ -41,6 +41,7 @@ To add a custom directory to your theme-gem, please edit the regexp in `jekyll-i
 - Update version of gemspec
 - `gem build jekyll-ichi.gemspec`
 - `gem push jekyll-ichi-VERSION.gem`
+- Visit [https://rubygems.org/gems/jekyll-ichi](https://rubygems.org/gems/jekyll-ichi) to see gem.
 
 ## License
 

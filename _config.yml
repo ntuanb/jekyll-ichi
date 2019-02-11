@@ -1,8 +1,12 @@
 # Site settings
 name: Ichi
 description: "Jekyll Theme"
-url: "https://tuanb.me"
-title: "Tuan Bui - Web Developer"
 
 # Unsplash
-unsplash_client_id: adf
+unsplash_client_id:
+
+# Social
+facebook_username: test
+twitter_username: test
+google_plus_username: test
+dribbble_username: test

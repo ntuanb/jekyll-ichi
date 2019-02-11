@@ -24,11 +24,23 @@
                 {% endif %}
             </h3>
             <div class="buttons">
-                <a class="button facebook"><i class="fab fa-facebook-f"></i></a>
-                <a class="button twitter"><i class="fab fa-twitter"></i></a>
-                <a class="button google"><i class="fab fa-google"></i></a>
-                <a class="button dribbble"><i class="fab fa-dribbble"></i></a>
-                <a class="button skype"><i class="fab fa-skype"></i></a>
+
+                {% if facebook_username %}
+                    <a class="button facebook" href="https://facebook.com/{{ site.facebook_username }}" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                {% endif %}
+
+                {% if site.twitter_username %}
+                    <a class="button twitter" href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><i class="fab fa-twitter"></i></a>
+                {% endif %}
+
+                {% if site.google_plus_username %}
+                    <a class="button google" href="https://plus.google.com/+{{ site.google_plus_username }}" target="_blank"><i class="fab fa-google"></i></a>
+                {% endif %}
+
+                {% if site.dribbble_username %}
+                    <a class="button dribbble" href="https://dribbble.com/{{ site.dribbble_username }}"><i class="fab fa-dribbble"></i></a>
+                {% endif %}
+
             </div>
         </section>
     </div>

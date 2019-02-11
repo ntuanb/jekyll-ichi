@@ -134,12 +134,6 @@ body {
 .button.dribbble .fab {
     color: #f26798;
 }
-.button.skype:before {
-    background-color: #00aff0;
-}
-.button.skype .fab {
-    color: #00aff0;
-}
 .button:focus:before,
 .button:hover:before {
     top: -10%;

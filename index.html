@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
-    <link rel="stylesheet" href="{{ "assets/style.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "assets/style.css" | prepend: '/' | relatve_url }}">
   </head>
 <body>
     <div class="container">
@@ -25,7 +25,7 @@
             </h3>
             <div class="buttons">
 
-                {% if facebook_username %}
+                {% if site.facebook_username %}
                     <a class="button facebook" href="https://facebook.com/{{ site.facebook_username }}" target="_blank"><i class="fab fa-facebook-f"></i></a>
                 {% endif %}
 

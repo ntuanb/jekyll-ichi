@@ -43,6 +43,9 @@ To add a custom directory to your theme-gem, please edit the regexp in `jekyll-i
 - `gem push jekyll-ichi-VERSION.gem`
 - Visit [https://rubygems.org/gems/jekyll-ichi](https://rubygems.org/gems/jekyll-ichi) to see gem.
 
+## Demo
+- Visit [https://ntuanb.github.io/jekyll-ichi/](https://ntuanb.github.io/jekyll-ichi/) to see it live.
+
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).

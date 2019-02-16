@@ -10,3 +10,6 @@ facebook_username: test
 twitter_username: test
 google_plus_username: test
 dribbble_username: test
+
+plugins:
+  - "jekyll-github-metadata"

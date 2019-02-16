@@ -1,6 +1,6 @@
 # Site settings
 name: Ichi
-description: "Jekyll Theme"
+description: Jekyll Theme
 
 # Unsplash
 unsplash_client_id:
@@ -10,3 +10,5 @@ facebook_username: test
 twitter_username: test
 google_plus_username: test
 dribbble_username: test
+github_username: test
+instagram_username: test

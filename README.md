@@ -1,4 +1,4 @@
-# Jekyll - Ichi
+# Jekyll Theme - Ichi
 
 Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
 
@@ -7,13 +7,13 @@ Welcome to your new Jekyll theme! In this directory, you'll find the files you n
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "jekyll-ichi"
+gem "jekyll-theme-ichi"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: jekyll-ichi
+theme: jekyll-theme-ichi
 ```
 
 And then execute:
@@ -22,11 +22,11 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install jekyll-ichi
+    $ gem install jekyll-theme-ichi
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/ntuanb/jekyll-ichi. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/ntuanb/jekyll-theme-ichi. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Development
 
@@ -39,12 +39,12 @@ To add a custom directory to your theme-gem, please edit the regexp in `jekyll-i
 
 ## Deploy
 - Update version of gemspec
-- `gem build jekyll-ichi.gemspec`
-- `gem push jekyll-ichi-VERSION.gem`
-- Visit [https://rubygems.org/gems/jekyll-ichi](https://rubygems.org/gems/jekyll-ichi) to see gem.
+- `gem build jekyll-theme-ichi.gemspec`
+- `gem push jekyll-theme-ichi-VERSION.gem`
+- Visit [https://rubygems.org/gems/jekyll-theme-ichi](https://rubygems.org/gems/jekyll-theme-ichi) to see gem.
 
 ## Demo
-- Visit [https://ntuanb.github.io/jekyll-ichi/](https://ntuanb.github.io/jekyll-ichi/) to see it live.
+- Visit [https://ntuanb.github.io/jekyll-theme-ichi/](https://ntuanb.github.io/jekyll-theme-ichi/) to see it live.
 
 ## License
 
